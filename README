@@ -1,0 +1,9 @@
+Instalacja rootkita:
+1. Zapisać oba pliki do wybranego folderu 
+2. Dla wybranego folderu zbudować program komendą "make"
+3. Zainstalować moduł rootkita komendą "sudo insmod rootkit.ko"
+
+Dezinstalacja:
+1. Upewnić się, że moduł nie jest ukryty "lsmod"
+2. Jeśli moduł jest ukryty, ujawnić go poleceniem "kill -63 0"
+3. Usunąć moduł poleceniem "sudo rmmod rootkit"
