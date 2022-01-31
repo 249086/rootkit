@@ -25,8 +25,8 @@ int module_hidden = 1;		//initial module status (hidden/unhidden)
 enum signals{
     become_root = 64,
     toggle_module = 63,
-    toggle_dmesg = 62,
-    hide_process = 61,
+    hide_process = 62,
+    toggle_dmesg = 61,
 };
 
 // END OF SETTINGS //
